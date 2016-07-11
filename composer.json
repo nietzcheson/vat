@@ -1,0 +1,21 @@
+{
+    "name": "nietzcheson/vat",
+    "description": "Own classes",
+    "keywords": ["Classes"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cristian Angulo Nova",
+            "email": "cristianangulonova@gmail.com",
+            "homepage": "http://cristianangulo.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {},
+    "require-dev":{
+      "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-4": { "nietzcheson\\vat\\": "src" }
+    }
+}
